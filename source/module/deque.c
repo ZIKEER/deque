@@ -1,8 +1,8 @@
 /*
- *             Copyright (C) 2023-2023 ZZK. All rights reserved.
- * @Author: zzk
+ *             Copyright (C) 2023-2023 Zack. All rights reserved.
+ * @Author: Zack
  * @Date: 2023-07-11
- * @LastEditors: zzk
+ * @LastEditors: Zack
  * @LastEditTime: 2023-07-12
  * @Description: 实现环形队列支持双端读取
  */
