@@ -1,3 +1,4 @@
-﻿  pch.cpp
-  test.cpp
+﻿  deque.c
+C:\Use\Code\deque\source\module\deque.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Use\Code\deque\source\module\deque.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   gtest_vs.vcxproj -> C:\Use\Code\deque\gtest_vs\Debug\gtest_vs.exe
