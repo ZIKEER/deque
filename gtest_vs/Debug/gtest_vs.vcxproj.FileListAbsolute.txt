@@ -1,0 +1,4 @@
+C:\Use\Code\deque\gtest_vs\Debug\gtest_vs.vcxproj.CopyComplete
+C:\Use\Code\deque\gtest_vs\Debug\gtest_vs.exe
+C:\Use\Code\deque\gtest_vs\Debug\gtest.pdb
+C:\Use\Code\deque\gtest_vs\Debug\gtest_main.pdb
