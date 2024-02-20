@@ -40,11 +40,15 @@
   </PropertyGroup>
   <ItemGroup>
     <ClInclude Include="..\source\hal\hal_type.h" />
+    <ClInclude Include="..\source\module\common_des.h" />
     <ClInclude Include="..\source\module\deque.h" />
+    <ClInclude Include="..\source\module\math_des.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\source\module\common_des.c" />
     <ClCompile Include="..\source\module\deque.c" />
+    <ClCompile Include="..\source\module\math_des.c" />
     <ClCompile Include="test.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
     </ClCompile>
