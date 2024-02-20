@@ -18,14 +18,14 @@
     <ClInclude Include="..\source\module\deque.h">
       <Filter>source\module</Filter>
     </ClInclude>
-    <ClInclude Include="..\source\hal\hal_type.h">
-      <Filter>source\hal</Filter>
-    </ClInclude>
     <ClInclude Include="..\source\module\common_des.h">
       <Filter>source\module</Filter>
     </ClInclude>
     <ClInclude Include="..\source\module\math_des.h">
       <Filter>source\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hal_chip\hal_type.h">
+      <Filter>source\hal_chip</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -35,7 +35,7 @@
     <Filter Include="source\module">
       <UniqueIdentifier>{dbab8268-17d1-402e-9ef5-f1fea2f7b6a5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\hal">
+    <Filter Include="source\hal_chip">
       <UniqueIdentifier>{b04fa2ac-1a37-460b-b102-e340e801814a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>

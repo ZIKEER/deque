@@ -33,13 +33,13 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(ProjectDir)..\source\module;$(ProjectDir)..\source\hal;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)..\source\module;$(ProjectDir)..\source\hal_chip;$(ProjectDir)..\source\hal_board;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(ProjectDir)..\source\module;$(ProjectDir)..\source\hal;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)..\source\module;$(ProjectDir)..\source\hal_chip;$(ProjectDir)..\source\hal_board;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemGroup>
-    <ClInclude Include="..\source\hal\hal_type.h" />
+    <ClInclude Include="..\source\hal_chip\hal_type.h" />
     <ClInclude Include="..\source\module\common_des.h" />
     <ClInclude Include="..\source\module\deque.h" />
     <ClInclude Include="..\source\module\math_des.h" />

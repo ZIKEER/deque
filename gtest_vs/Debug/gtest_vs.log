@@ -1,4 +1,14 @@
 ﻿  common_des.c
 C:\Use\Code\deque\source\module\common_des.c(259,84): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
 C:\Use\Code\deque\source\module\common_des.c(262,87): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  deque.c
+C:\Use\Code\deque\source\module\deque.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Use\Code\deque\source\module\deque.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  math_des.c
+C:\Use\Code\deque\source\module\math_des.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Use\Code\deque\source\module\math_des.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  test.cpp
+C:\Use\Code\deque\source\module\deque.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Use\Code\deque\source\module\math_des.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   gtest_vs.vcxproj -> C:\Use\Code\deque\gtest_vs\Debug\gtest_vs.exe
