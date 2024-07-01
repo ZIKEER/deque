@@ -1,4 +1,5 @@
-﻿  common_des.c
+﻿  pch.cpp
+  common_des.c
 C:\Use\Code\deque\source\module\common_des.c(259,84): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
 C:\Use\Code\deque\source\module\common_des.c(262,87): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
   deque.c
@@ -7,8 +8,28 @@ C:\Use\Code\deque\source\module\deque.h(1,1): warning C4819: 该文件包含不�
   math_des.c
 C:\Use\Code\deque\source\module\math_des.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 C:\Use\Code\deque\source\module\math_des.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  compression_test.c
+C:\Use\Code\deque\source\third\compression_test.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Use\Code\deque\source\third\compression_test.c(32,17): warning C4098: “QlzTest”:“void”函数返回值
+C:\Use\Code\deque\source\third\compression_test.c(48,17): warning C4098: “QlzTest”:“void”函数返回值
+C:\Use\Code\deque\source\third\compression_test.c(59,17): warning C4098: “QlzTest”:“void”函数返回值
+C:\Use\Code\deque\source\third\compression_test.c(74,17): warning C4098: “QlzTest”:“void”函数返回值
+C:\Use\Code\deque\source\third\compression_test.c(29,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Use\Code\deque\source\third\compression_test.c(45,29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Use\Code\deque\source\third\compression_test.c(56,23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Use\Code\deque\source\third\compression_test.c(71,31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  heatshrink_decoder.c
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_decoder.c(111,28): warning C4267: “+=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_decoder.c(282,35): warning C4267: “-=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  heatshrink_encoder.c
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_encoder.c(98,39): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_encoder.c(152,1): warning C4267: “初始化”: 从“size_t”转换到“uint16_t”，可能丢失数据
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_encoder.c(536,34): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_encoder.c(603,42): warning C4267: “-=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_encoder.c(595,1): warning C4267: “初始化”: 从“size_t”转换到“uint16_t”，可能丢失数据
+C:\Use\Code\deque\source\third\heatshrink\heatshrink_encoder.c(596,1): warning C4267: “初始化”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  minilzo.c
+  quicklz.c
   正在生成代码...
   test.cpp
-C:\Use\Code\deque\source\module\deque.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Use\Code\deque\source\module\math_des.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   gtest_vs.vcxproj -> C:\Use\Code\deque\gtest_vs\Debug\gtest_vs.exe

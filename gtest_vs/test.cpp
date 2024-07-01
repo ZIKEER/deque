@@ -1,11 +1,34 @@
 #include "pch.h"
 
+
+
+
+
 TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
   EXPECT_TRUE(true);
 }
 
-#if 1//≤‚ ‘Deque
+
+
+#if 1/* —πÀıÀ„∑® */
+
+#include "./../source/third/compression_test.h"
+
+
+
+TEST(TestCompression, qlz) {
+	QlzTest();
+}
+
+
+
+
+
+
+#endif
+
+#if 0//≤‚ ‘Deque
 
 #include "deque.h"
 
@@ -23,7 +46,7 @@ TEST(TestCaseDeque, Init) {
 }
 #endif
 
-#if 1//≤‚ ‘MathDes
+#if 0//≤‚ ‘MathDes
 #include "math_des.h"
 
 TEST(TestCaseMathDes, ENC)
@@ -42,7 +65,7 @@ TEST(TestCaseMathDes, ENC)
 
 #endif
 
-#if 1//≤‚ ‘CommonDes
+#if 0//≤‚ ‘CommonDes
 #include "common_des.h"
 
 TEST(TestCaseCommonDes, ENC)

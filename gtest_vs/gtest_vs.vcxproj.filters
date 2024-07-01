@@ -12,6 +12,21 @@
     <ClCompile Include="..\source\module\math_des.c">
       <Filter>source\module</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\third\heatshrink\heatshrink_decoder.c">
+      <Filter>source\third\heatshrink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\third\heatshrink\heatshrink_encoder.c">
+      <Filter>source\third\heatshrink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\third\minilzo-2.10\minilzo.c">
+      <Filter>source\third\minilzo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\third\quicklz\quicklz.c">
+      <Filter>source\third\qlz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\third\compression_test.c">
+      <Filter>source\third</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -38,5 +53,20 @@
     <Filter Include="source\hal_chip">
       <UniqueIdentifier>{b04fa2ac-1a37-460b-b102-e340e801814a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\third">
+      <UniqueIdentifier>{8b10b096-c6ca-4a5d-a5d0-20fcd268be82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\third\qlz">
+      <UniqueIdentifier>{11d71c85-82bb-4b89-88b2-f2f6f04312d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\third\minilzo">
+      <UniqueIdentifier>{4bf965b0-75e6-43c3-bc92-540573d22c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\third\heatshrink">
+      <UniqueIdentifier>{83fde7af-c04d-47e3-b7d6-1d1196dc1403}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

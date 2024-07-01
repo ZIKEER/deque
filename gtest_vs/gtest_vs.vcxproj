@@ -49,6 +49,11 @@
     <ClCompile Include="..\source\module\common_des.c" />
     <ClCompile Include="..\source\module\deque.c" />
     <ClCompile Include="..\source\module\math_des.c" />
+    <ClCompile Include="..\source\third\compression_test.c" />
+    <ClCompile Include="..\source\third\heatshrink\heatshrink_decoder.c" />
+    <ClCompile Include="..\source\third\heatshrink\heatshrink_encoder.c" />
+    <ClCompile Include="..\source\third\minilzo-2.10\minilzo.c" />
+    <ClCompile Include="..\source\third\quicklz\quicklz.c" />
     <ClCompile Include="test.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
     </ClCompile>
@@ -80,6 +85,9 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <AssemblyDebug>true</AssemblyDebug>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
